@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <section class="shop">
+        <button type="button" id="open-shop-btn">🛒 Магазин</button>
+
+        <div id="shop-sidebar" class="shop-hidden">
+        <button type="button" id="close-shop-btn">✕</button>
+    
+        <h2>Магазин апгрейдів</h2>
+    
+        <div class="shop-items">
+            <div class="shop-item">
+                <div class="item-info">
+                    <h3>Мульти-клік</h3>
+                    <p>+ 1 монета за клік</p>
+                </div>
+                <button type="button" class="buy-btn1">Ціна: 100 🪙</button>
+                </div>
+
+                <div class="shop-item">
+                    <div class="item-info">
+                        <h3>Мульти-клік х10</h3>
+                        <p>+10 монет за клік</p>
+                    </div>
+                    <button type="button" class="buy-btn2">Ціна: 1000 🪙</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    
+    <section class="game">
+        <h1>coins: <span class="coins">0</span></h1>
+        <h2 class="rebirth-coins">rebirth-coins: <span class="kilkist-rebirth-coins">0</span></h2>
+        <div class="clicker-container">
+            <button type="button" id="click-btn">
+                <img src="Без названия.png" alt="" id="click-image">
+            </button>
+            
+            <button type="button" id="rebirth-btn" >
+                Переродження (Ціна: 100 🪙)
+            </button>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
